@@ -3,9 +3,13 @@ laravel-admin-upload extension
 
 ## Installation
 
-You can add this library as a local, per-project dependency to your project using [Composer](https://getcomposer.org/):
+通过 [Composer](https://getcomposer.org/)安装扩展:
 
     composer require afunjoker/laravel-admin-plupload
+
+发布项目配置文件:
+
+    php artisan vendor:publish --provider=afunjoker\laravel-admin-plupload\LaravelAdminPluploadServiceProvider
 
 在项目下的app/Admin/bootstrap.php中注册添加:
 
