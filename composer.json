@@ -7,13 +7,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "your name",
-            "email": "your email"
+            "name": "wenjian wu",
+            "email": "472372045@qq.com"
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "encore/laravel-admin": "~1.6"
+        "php": ">=7.2.0",
+        "encore/laravel-admin": "~1.8"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.0"
