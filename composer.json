@@ -1,8 +1,8 @@
 {
     "name": "afunjoker/laravel-admin-plupload",
-    "description": "description...",
+    "description": "Large file slice upload extension",
     "type": "library",
-    "keywords": ["laravel-admin", "extension"],
+    "keywords": ["laravel-admin", "extension","upload","file"],
     "homepage": "https://github.com/afunjoker/laravel-admin-plupload",
     "license": "MIT",
     "authors": [
@@ -14,9 +14,6 @@
     "require": {
         "php": ">=7.2.0",
         "encore/laravel-admin": "~1.8"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~6.0"
     },
     "autoload": {
         "psr-4": {
