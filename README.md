@@ -9,7 +9,7 @@ laravel-admin-upload extension
 
 发布项目配置文件:
 
-    php artisan vendor:publish --provider=afunjoker\laravel-admin-plupload\LaravelAdminPluploadServiceProvider
+    php artisan vendor:publish --provider=afunjoker\LaravelAdminPlupload\LaravelAdminPluploadServiceProvider
 
 在项目下的app/Admin/bootstrap.php中注册添加:
 
