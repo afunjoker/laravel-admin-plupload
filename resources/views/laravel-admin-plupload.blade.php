@@ -66,8 +66,8 @@
         browse_button: 'pickfiles-{{$id}}', // 选择图片按钮id
         container: document.getElementById('container'), // 容器
         url: window.prefix + 'laravel-admin-plupload/upload',//接口
-        flash_swf_url: '/vendor/afunjoker/laravel-admin-plupload/Moxie.swf',
-        silverlight_xap_url: '/vendor/afunjoker/laravel-admin-plupload/Moxie.xap',
+        flash_swf_url: {{asset('/vendor/afunjoker/laravel-admin-plupload/Moxie.swf')}},
+        silverlight_xap_url: {{asset('/vendor/afunjoker/laravel-admin-plupload/Moxie.xap')}},
         chunk_size: window.chunk_size,
 
         filters: {
