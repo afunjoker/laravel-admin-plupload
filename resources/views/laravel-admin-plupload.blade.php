@@ -57,9 +57,6 @@
 <!-- production -->
 <script type="text/javascript" src="{{asset('/vendor/afunjoker/laravel-admin-plupload/plupload.full.min.js')}}"></script>
 
-<!-- debug-->
-{{--<script type="text/javascript" src="/vendor/afunjoker/laravel-admin-plupload/moxie.js"></script>--}}
-{{--<script type="text/javascript" src="/vendor/afunjoker/laravel-admin-plupload/plupload.dev.js"></script>--}}
 <script>
     var uploader = new plupload.Uploader({
         runtimes: 'html5,flash,silverlight,html4',//上传方式顺序优先级

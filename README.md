@@ -14,8 +14,9 @@ laravel-admin-upload extension
 发布项目配置文件:
 
     php artisan vendor:publish --provider=afunjoker\LaravelAdminPlupload\LaravelAdminPluploadServiceProvider
+发布后会在config目录下生成laravel-admin-plupload.php配置文件,可设置切片大小,整个文件大小限制及上传文件类型
 
-在项目下的app/Admin/bootstrap.php中注册添加:
+在项目下的app/Admin/bootstrap.php中添加:
 
     Encore\Admin\Form::extend('laravel_admin_plupload', afunjoker\LaravelAdminPlupload\LaravelAdminPluploadFileField::class);
 
