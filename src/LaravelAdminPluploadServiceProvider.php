@@ -22,7 +22,8 @@ class LaravelAdminPluploadServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole() && $assets = $extension->assets()) {
             $this->publishes(
                 [
-                    __DIR__ . '/../config/laravel_admin_plupload.php' => config_path('laravel_admin_plupload.php')
+                    __DIR__ . '/../config/laravel_admin_plupload.php' => config_path('laravel_admin_plupload.php'),
+                    $assets => public_path('vendor/afunjoker/laravel-admin-plupload')
                 ],
                 'laravel-admin-plupload'
             );

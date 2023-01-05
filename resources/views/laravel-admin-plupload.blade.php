@@ -55,7 +55,7 @@
     </div>
 </div>
 <!-- production -->
-<script type="text/javascript" src="{{asset('plupload.full.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('/vendor/afunjoker/laravel-admin-plupload/plupload.full.min.js')}}"></script>
 
 <!-- debug-->
 {{--<script type="text/javascript" src="/vendor/afunjoker/laravel-admin-plupload/moxie.js"></script>--}}
@@ -66,8 +66,8 @@
         browse_button: 'pickfiles-{{$id}}', // 选择图片按钮id
         container: document.getElementById('container'), // 容器
         url: window.prefix + 'laravel-admin-plupload/upload',//接口
-        flash_swf_url: {{asset('Moxie.swf')}},
-        silverlight_xap_url: {{asset('Moxie.xap')}},
+        flash_swf_url: "{{asset('/vendor/afunjoker/laravel-admin-plupload/Moxie.swf')}}",
+        silverlight_xap_url: "{{asset('/vendor/afunjoker/laravel-admin-plupload/Moxie.xap')}}",
         chunk_size: window.chunk_size,
 
         filters: {

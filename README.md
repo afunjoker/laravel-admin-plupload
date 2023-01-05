@@ -7,6 +7,10 @@ laravel-admin-upload extension
 
     composer require afunjoker/laravel-admin-plupload
 
+在config/app.php中的providers下添加如下:
+
+    afunjoker\LaravelAdminPlupload\LaravelAdminPluploadServiceProvider::class,
+
 发布项目配置文件:
 
     php artisan vendor:publish --provider=afunjoker\LaravelAdminPlupload\LaravelAdminPluploadServiceProvider
